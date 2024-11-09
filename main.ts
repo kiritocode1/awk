@@ -3,7 +3,7 @@ import figlet from "npm:figlet";
 
 
 
-//! to compile this run ```deno compile --allow-read=. -o awk  main.ts```
+//! to compile this run ```deno i && deno compile --allow-read=. -o awk  main.ts```
 if (Deno.args.includes("--tuah")) {
 
     const text = await figlet("SPIT ON THAT String");
